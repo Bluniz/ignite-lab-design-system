@@ -15,7 +15,7 @@ module.exports = {
   },
   //! CONFIGURAÇÃO PARA GARANTIR QUE O STORYBOOK NÃO SE PERCA ACHANDO QUE TA ABRINDO PASTAS.
   viteFinal: (config, { configType }) => {
-    if (configType === "production") {
+    if (configType === "PRODUCTION") {
       config.base = "/ignite-lab-design-system/";
     }
 
